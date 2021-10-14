@@ -1,0 +1,1477 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="no" ?>
+<ParticleTracks>
+  <Format version="1.0" />
+  <Items>
+    <Item id="0" type="OPTION" name="Injection">
+      <Option id="0" data="massless" name="injection-1" />
+      <Option id="1" data="massless" name="injection-0" />
+    </Item>
+    <Item id="1" type="INTEGER32" name="Particle ID" />
+    <Item id="2" type="FLOAT" name="Particle Time" units="s" />
+    <Item id="3" type="OPTION" name="Region">
+      <Option id="4" data="fluid_domain" name="fluid" />
+      <Option id="1" data="interior-fluid_domain" name="interior" />
+      <Option id="5" data="outlet1" name="pressure-outlet" />
+      <Option id="6" data="outlet2" name="pressure-outlet" />
+      <Option id="7" data="inlet" name="velocity-inlet" />
+      <Option id="8" data="wall_artery" name="wall" />
+    </Item>
+    <Item id="4" type="INTEGER32" name="Periodic Side" />
+    <Item id="5" type="FLOAT" name="Particle X Position" units="m" component="X" componentOf="Particle Position" />
+    <Item id="6" type="FLOAT" name="Particle Y Position" units="m" component="Y" componentOf="Particle Position" />
+    <Item id="7" type="FLOAT" name="Particle Z Position" units="m" component="Z" componentOf="Particle Position" />
+    <Item id="8" type="FLOAT" name="Particle Residence Time" units="s" />
+  </Items>
+  <Tracks>
+    <Section id="0" length="2">
+      <Data item="0" minimum="0" maximum="1" dataFormat="ASCII">
+0 1 
+      </Data>
+      <Data item="1" minimum="0" maximum="1" dataFormat="ASCII">
+0 1 
+      </Data>
+      <Data item="2" constant="true" dataFormat="ASCII">
+0.01 
+      </Data>
+      <Data item="3" constant="true" dataFormat="ASCII">
+4 
+      </Data>
+      <Data item="4" constant="true" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="5" minimum="0.001265205" maximum="0.002799954" dataFormat="Base64/LE">
+b383OzzVpTo=
+      </Data>
+      <Data item="6" minimum="0.0045465189" maximum="0.0061966451" dataFormat="Base64/LE">
+9/qUOzoNyzs=
+      </Data>
+      <Data item="7" minimum="-0.030185129" maximum="-0.030158941" dataFormat="Base64/LE">
+4g/3vM5G97w=
+      </Data>
+      <Data item="8" constant="true" dataFormat="ASCII">
+0.01 
+      </Data>
+    </Section>
+    <Section id="1" length="2">
+      <Data item="0" minimum="0" maximum="1" dataFormat="ASCII">
+0 1 
+      </Data>
+      <Data item="1" minimum="0" maximum="1" dataFormat="ASCII">
+0 1 
+      </Data>
+      <Data item="2" constant="true" dataFormat="ASCII">
+0.02 
+      </Data>
+      <Data item="3" constant="true" dataFormat="ASCII">
+4 
+      </Data>
+      <Data item="4" constant="true" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="5" minimum="0.001483059" maximum="0.0029610959" dataFormat="Base64/LE">
+8g5COzRjwjo=
+      </Data>
+      <Data item="6" minimum="0.0044837622" maximum="0.0060786079" dataFormat="Base64/LE">
+huySOw8vxzs=
+      </Data>
+      <Data item="7" minimum="-0.02774428" maximum="-0.027708421" dataFormat="Base64/LE">
+xfzivPlH47w=
+      </Data>
+      <Data item="8" constant="true" dataFormat="ASCII">
+0.02 
+      </Data>
+    </Section>
+    <Section id="2" length="2">
+      <Data item="0" minimum="0" maximum="1" dataFormat="ASCII">
+0 1 
+      </Data>
+      <Data item="1" minimum="0" maximum="1" dataFormat="ASCII">
+0 1 
+      </Data>
+      <Data item="2" constant="true" dataFormat="ASCII">
+0.03 
+      </Data>
+      <Data item="3" constant="true" dataFormat="ASCII">
+4 
+      </Data>
+      <Data item="4" constant="true" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="5" minimum="0.0018098369" maximum="0.003231765" dataFormat="Base64/LE">
+BcxTOw047To=
+      </Data>
+      <Data item="6" minimum="0.0043232762" maximum="0.0058784168" dataFormat="Base64/LE">
+RaqNO7yfwDs=
+      </Data>
+      <Data item="7" minimum="-0.02452899" maximum="-0.024471439" dataFormat="Base64/LE">
+BfHIvFR4yLw=
+      </Data>
+      <Data item="8" constant="true" dataFormat="ASCII">
+0.03 
+      </Data>
+    </Section>
+    <Section id="3" length="2">
+      <Data item="0" minimum="0" maximum="1" dataFormat="ASCII">
+0 1 
+      </Data>
+      <Data item="1" minimum="0" maximum="1" dataFormat="ASCII">
+0 1 
+      </Data>
+      <Data item="2" constant="true" dataFormat="ASCII">
+0.04 
+      </Data>
+      <Data item="3" constant="true" dataFormat="ASCII">
+4 
+      </Data>
+      <Data item="4" constant="true" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="5" minimum="0.002215209" maximum="0.0035835949" dataFormat="Base64/LE">
+v9pqOwotETs=
+      </Data>
+      <Data item="6" minimum="0.0040368182" maximum="0.0055593331" dataFormat="Base64/LE">
+SUeEOxErtjs=
+      </Data>
+      <Data item="7" minimum="-0.0206082" maximum="-0.02039833" dataFormat="Base64/LE">
+h9KovGYap7w=
+      </Data>
+      <Data item="8" constant="true" dataFormat="ASCII">
+0.04 
+      </Data>
+    </Section>
+    <Section id="4" length="2">
+      <Data item="0" minimum="0" maximum="1" dataFormat="ASCII">
+0 1 
+      </Data>
+      <Data item="1" minimum="0" maximum="1" dataFormat="ASCII">
+0 1 
+      </Data>
+      <Data item="2" constant="true" dataFormat="ASCII">
+0.05 
+      </Data>
+      <Data item="3" constant="true" dataFormat="ASCII">
+4 
+      </Data>
+      <Data item="4" constant="true" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="5" minimum="0.0026517981" maximum="0.0039812219" dataFormat="Base64/LE">
+6XSCO8rJLTs=
+      </Data>
+      <Data item="6" minimum="0.0035321361" maximum="0.0050439988" dataFormat="Base64/LE">
+aXtnOyFIpTs=
+      </Data>
+      <Data item="7" minimum="-0.016042911" maximum="-0.01562277" dataFormat="Base64/LE">
+bGyDvKb2f7w=
+      </Data>
+      <Data item="8" constant="true" dataFormat="ASCII">
+0.05 
+      </Data>
+    </Section>
+    <Section id="5" length="2">
+      <Data item="0" minimum="0" maximum="1" dataFormat="ASCII">
+0 1 
+      </Data>
+      <Data item="1" minimum="0" maximum="1" dataFormat="ASCII">
+0 1 
+      </Data>
+      <Data item="2" constant="true" dataFormat="ASCII">
+0.06 
+      </Data>
+      <Data item="3" constant="true" dataFormat="ASCII">
+4 
+      </Data>
+      <Data item="4" constant="true" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="5" minimum="0.003047738" maximum="0.004364829" dataFormat="Base64/LE">
+1waPO4+8Rzs=
+      </Data>
+      <Data item="6" minimum="0.002862758" maximum="0.0043473109" dataFormat="Base64/LE">
+HJ07O+Nzjjs=
+      </Data>
+      <Data item="7" minimum="-0.01087367" maximum="-0.0101977" dataFormat="Base64/LE">
+eicyvEEUJ7w=
+      </Data>
+      <Data item="8" constant="true" dataFormat="ASCII">
+0.06 
+      </Data>
+    </Section>
+    <Section id="6" length="2">
+      <Data item="0" minimum="0" maximum="1" dataFormat="ASCII">
+0 1 
+      </Data>
+      <Data item="1" minimum="0" maximum="1" dataFormat="ASCII">
+0 1 
+      </Data>
+      <Data item="2" constant="true" dataFormat="ASCII">
+0.07 
+      </Data>
+      <Data item="3" constant="true" dataFormat="ASCII">
+4 
+      </Data>
+      <Data item="4" constant="true" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="5" minimum="0.0034559581" maximum="0.0047580618" dataFormat="Base64/LE">
+hOmbO1t9Yjs=
+      </Data>
+      <Data item="6" minimum="0.002150839" maximum="0.0035249051" dataFormat="Base64/LE">
+F/UMOxgCZzs=
+      </Data>
+      <Data item="7" minimum="-0.0050514061" maximum="-0.0040191682" dataFormat="Base64/LE">
+RIaluzqzg7s=
+      </Data>
+      <Data item="8" constant="true" dataFormat="ASCII">
+0.07 
+      </Data>
+    </Section>
+    <Section id="7" length="2">
+      <Data item="0" minimum="0" maximum="1" dataFormat="ASCII">
+0 1 
+      </Data>
+      <Data item="1" minimum="0" maximum="1" dataFormat="ASCII">
+0 1 
+      </Data>
+      <Data item="2" constant="true" dataFormat="ASCII">
+0.08 
+      </Data>
+      <Data item="3" constant="true" dataFormat="ASCII">
+4 
+      </Data>
+      <Data item="4" constant="true" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="5" minimum="0.0037562221" maximum="0.005196067" dataFormat="Base64/LE">
+xUOqO/Mqdjs=
+      </Data>
+      <Data item="6" minimum="0.001715835" maximum="0.002886513" dataFormat="Base64/LE">
+3uXgOqcrPTs=
+      </Data>
+      <Data item="7" minimum="0.001360176" maximum="0.002647351" dataFormat="Base64/LE">
+70eyOi5/LTs=
+      </Data>
+      <Data item="8" constant="true" dataFormat="ASCII">
+0.08 
+      </Data>
+    </Section>
+    <Section id="8" length="2">
+      <Data item="0" minimum="0" maximum="1" dataFormat="ASCII">
+0 1 
+      </Data>
+      <Data item="1" minimum="0" maximum="1" dataFormat="ASCII">
+0 1 
+      </Data>
+      <Data item="2" constant="true" dataFormat="ASCII">
+0.09 
+      </Data>
+      <Data item="3" constant="true" dataFormat="ASCII">
+4 
+      </Data>
+      <Data item="4" constant="true" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="5" minimum="0.002841118" maximum="0.005260292" dataFormat="Base64/LE">
+h16sOw0yOjs=
+      </Data>
+      <Data item="6" minimum="0.0003380916" maximum="0.001355777" dataFormat="Base64/LE">
+40GxOVS0sTo=
+      </Data>
+      <Data item="7" minimum="0.0053996658" maximum="0.0084202318" dataFormat="Base64/LE">
+ru+wOwP1CTw=
+      </Data>
+      <Data item="8" constant="true" dataFormat="ASCII">
+0.09 
+      </Data>
+    </Section>
+    <Section id="9" length="2">
+      <Data item="0" minimum="0" maximum="1" dataFormat="ASCII">
+0 1 
+      </Data>
+      <Data item="1" minimum="0" maximum="1" dataFormat="ASCII">
+0 1 
+      </Data>
+      <Data item="2" constant="true" dataFormat="ASCII">
+0.1 
+      </Data>
+      <Data item="3" constant="true" dataFormat="ASCII">
+4 
+      </Data>
+      <Data item="4" constant="true" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="5" minimum="0.001324993" maximum="0.0045645628" dataFormat="Base64/LE">
+VJKVO2OrrTo=
+      </Data>
+      <Data item="6" minimum="-0.001049013" maximum="-8.6490087e-05" dataFormat="Base64/LE">
+CX+JugNitbg=
+      </Data>
+      <Data item="7" minimum="0.0076472159" maximum="0.01412755" dataFormat="Base64/LE">
+f5X6Oz13Zzw=
+      </Data>
+      <Data item="8" constant="true" dataFormat="ASCII">
+0.1 
+      </Data>
+    </Section>
+    <Section id="10" length="2">
+      <Data item="0" minimum="0" maximum="1" dataFormat="ASCII">
+0 1 
+      </Data>
+      <Data item="1" minimum="0" maximum="1" dataFormat="ASCII">
+0 1 
+      </Data>
+      <Data item="2" constant="true" dataFormat="ASCII">
+0.11 
+      </Data>
+      <Data item="3" constant="true" dataFormat="ASCII">
+4 
+      </Data>
+      <Data item="4" constant="true" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="5" minimum="-0.001151726" maximum="0.0038776139" dataFormat="Base64/LE">
+kR9+O4P1lro=
+      </Data>
+      <Data item="6" minimum="-0.001885023" maximum="-0.00056487898" dataFormat="Base64/LE">
+4BL3umMUFLo=
+      </Data>
+      <Data item="7" minimum="0.0091276281" maximum="0.021345271" dataFormat="Base64/LE">
+DIwVPEfcrjw=
+      </Data>
+      <Data item="8" constant="true" dataFormat="ASCII">
+0.11 
+      </Data>
+    </Section>
+    <Section id="11" length="1">
+      <Data item="0" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="1" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="2" minimum="0.12" maximum="0.12" dataFormat="Base64/LE">
+j8L1PQ==
+      </Data>
+      <Data item="3" minimum="4" maximum="4" dataFormat="ASCII">
+4 
+      </Data>
+      <Data item="4" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="5" minimum="0.0030841969" maximum="0.0030841969" dataFormat="Base64/LE">
+PSBKOw==
+      </Data>
+      <Data item="6" minimum="-0.002577947" maximum="-0.002577947" dataFormat="Base64/LE">
+xvIouw==
+      </Data>
+      <Data item="7" minimum="0.01012427" maximum="0.01012427" dataFormat="Base64/LE">
+ROAlPA==
+      </Data>
+      <Data item="8" minimum="0.12" maximum="0.12" dataFormat="Base64/LE">
+j8L1PQ==
+      </Data>
+    </Section>
+    <Section id="12" length="1">
+      <Data item="0" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="1" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="2" minimum="0.13" maximum="0.13" dataFormat="Base64/LE">
+uB4FPg==
+      </Data>
+      <Data item="3" minimum="4" maximum="4" dataFormat="ASCII">
+4 
+      </Data>
+      <Data item="4" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="5" minimum="0.002060482" maximum="0.002060482" dataFormat="Base64/LE">
+JwkHOw==
+      </Data>
+      <Data item="6" minimum="-0.0031930159" maximum="-0.0031930159" dataFormat="Base64/LE">
+60FRuw==
+      </Data>
+      <Data item="7" minimum="0.0109373" maximum="0.0109373" dataFormat="Base64/LE">
+XDIzPA==
+      </Data>
+      <Data item="8" minimum="0.13" maximum="0.13" dataFormat="Base64/LE">
+uB4FPg==
+      </Data>
+    </Section>
+    <Section id="13" length="1">
+      <Data item="0" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="1" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="2" minimum="0.14" maximum="0.14" dataFormat="Base64/LE">
+KVwPPg==
+      </Data>
+      <Data item="3" minimum="4" maximum="4" dataFormat="ASCII">
+4 
+      </Data>
+      <Data item="4" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="5" minimum="0.0010952899" maximum="0.0010952899" dataFormat="Base64/LE">
+1Y+POg==
+      </Data>
+      <Data item="6" minimum="-0.0035300159" maximum="-0.0035300159" dataFormat="Base64/LE">
+11dnuw==
+      </Data>
+      <Data item="7" minimum="0.01137174" maximum="0.01137174" dataFormat="Base64/LE">
+iVA6PA==
+      </Data>
+      <Data item="8" minimum="0.14" maximum="0.14" dataFormat="Base64/LE">
+KVwPPg==
+      </Data>
+    </Section>
+    <Section id="14" length="1">
+      <Data item="0" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="1" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="2" minimum="0.15000001" maximum="0.15000001" dataFormat="Base64/LE">
+mpkZPg==
+      </Data>
+      <Data item="3" minimum="4" maximum="4" dataFormat="ASCII">
+4 
+      </Data>
+      <Data item="4" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="5" minimum="0.00027633339" maximum="0.00027633339" dataFormat="Base64/LE">
+1+CQOQ==
+      </Data>
+      <Data item="6" minimum="-0.00363106" maximum="-0.00363106" dataFormat="Base64/LE">
+FPdtuw==
+      </Data>
+      <Data item="7" minimum="0.01155641" maximum="0.01155641" dataFormat="Base64/LE">
+GVc9PA==
+      </Data>
+      <Data item="8" minimum="0.15000001" maximum="0.15000001" dataFormat="Base64/LE">
+mpkZPg==
+      </Data>
+    </Section>
+    <Section id="15" length="1">
+      <Data item="0" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="1" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="2" minimum="0.16" maximum="0.16" dataFormat="Base64/LE">
+CtcjPg==
+      </Data>
+      <Data item="3" minimum="4" maximum="4" dataFormat="ASCII">
+4 
+      </Data>
+      <Data item="4" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="5" minimum="-0.00043911111" maximum="-0.00043911111" dataFormat="Base64/LE">
+fzjmuQ==
+      </Data>
+      <Data item="6" minimum="-0.0035532841" maximum="-0.0035532841" dataFormat="Base64/LE">
+N95ouw==
+      </Data>
+      <Data item="7" minimum="0.0116322" maximum="0.0116322" dataFormat="Base64/LE">
+/JQ+PA==
+      </Data>
+      <Data item="8" minimum="0.16" maximum="0.16" dataFormat="Base64/LE">
+CtcjPg==
+      </Data>
+    </Section>
+    <Section id="16" length="1">
+      <Data item="0" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="1" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="2" minimum="0.17" maximum="0.17" dataFormat="Base64/LE">
+exQuPg==
+      </Data>
+      <Data item="3" minimum="4" maximum="4" dataFormat="ASCII">
+4 
+      </Data>
+      <Data item="4" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="5" minimum="-0.00094335398" maximum="-0.00094335398" dataFormat="Base64/LE">
+akt3ug==
+      </Data>
+      <Data item="6" minimum="-0.003386599" maximum="-0.003386599" dataFormat="Base64/LE">
+tPFduw==
+      </Data>
+      <Data item="7" minimum="0.0116313" maximum="0.0116313" dataFormat="Base64/LE">
+NZE+PA==
+      </Data>
+      <Data item="8" minimum="0.17" maximum="0.17" dataFormat="Base64/LE">
+exQuPg==
+      </Data>
+    </Section>
+    <Section id="17" length="1">
+      <Data item="0" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="1" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="2" minimum="0.18000001" maximum="0.18000001" dataFormat="Base64/LE">
+7FE4Pg==
+      </Data>
+      <Data item="3" minimum="4" maximum="4" dataFormat="ASCII">
+4 
+      </Data>
+      <Data item="4" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="5" minimum="-0.001405249" maximum="-0.001405249" dataFormat="Base64/LE">
+VTC4ug==
+      </Data>
+      <Data item="6" minimum="-0.003149546" maximum="-0.003149546" dataFormat="Base64/LE">
+nWhOuw==
+      </Data>
+      <Data item="7" minimum="0.01155186" maximum="0.01155186" dataFormat="Base64/LE">
+A0Q9PA==
+      </Data>
+      <Data item="8" minimum="0.18000001" maximum="0.18000001" dataFormat="Base64/LE">
+7FE4Pg==
+      </Data>
+    </Section>
+    <Section id="18" length="1">
+      <Data item="0" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="1" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="2" minimum="0.19" maximum="0.19" dataFormat="Base64/LE">
+XI9CPg==
+      </Data>
+      <Data item="3" minimum="4" maximum="4" dataFormat="ASCII">
+4 
+      </Data>
+      <Data item="4" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="5" minimum="-0.00167159" maximum="-0.00167159" dataFormat="Base64/LE">
+QRnbug==
+      </Data>
+      <Data item="6" minimum="-0.0029803209" maximum="-0.0029803209" dataFormat="Base64/LE">
+fVFDuw==
+      </Data>
+      <Data item="7" minimum="0.01143163" maximum="0.01143163" dataFormat="Base64/LE">
+u0s7PA==
+      </Data>
+      <Data item="8" minimum="0.19" maximum="0.19" dataFormat="Base64/LE">
+XI9CPg==
+      </Data>
+    </Section>
+    <Section id="19" length="1">
+      <Data item="0" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="1" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="2" minimum="0.2" maximum="0.2" dataFormat="Base64/LE">
+zcxMPg==
+      </Data>
+      <Data item="3" minimum="4" maximum="4" dataFormat="ASCII">
+4 
+      </Data>
+      <Data item="4" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="5" minimum="-0.001836127" maximum="-0.001836127" dataFormat="Base64/LE">
+M6rwug==
+      </Data>
+      <Data item="6" minimum="-0.002851963" maximum="-0.002851963" dataFormat="Base64/LE">
+AOg6uw==
+      </Data>
+      <Data item="7" minimum="0.01129941" maximum="0.01129941" dataFormat="Base64/LE">
+KSE5PA==
+      </Data>
+      <Data item="8" minimum="0.2" maximum="0.2" dataFormat="Base64/LE">
+zcxMPg==
+      </Data>
+    </Section>
+    <Section id="20" length="1">
+      <Data item="0" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="1" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="2" minimum="0.20999999" maximum="0.20999999" dataFormat="Base64/LE">
+PQpXPg==
+      </Data>
+      <Data item="3" minimum="4" maximum="4" dataFormat="ASCII">
+4 
+      </Data>
+      <Data item="4" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="5" minimum="-0.0019792749" maximum="-0.0019792749" dataFormat="Base64/LE">
+ubYBuw==
+      </Data>
+      <Data item="6" minimum="-0.0027232789" maximum="-0.0027232789" dataFormat="Base64/LE">
+Cnkyuw==
+      </Data>
+      <Data item="7" minimum="0.01113641" maximum="0.01113641" dataFormat="Base64/LE">
+fXU2PA==
+      </Data>
+      <Data item="8" minimum="0.20999999" maximum="0.20999999" dataFormat="Base64/LE">
+PQpXPg==
+      </Data>
+    </Section>
+    <Section id="21" length="1">
+      <Data item="0" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="1" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="2" minimum="0.22" maximum="0.22" dataFormat="Base64/LE">
+rkdhPg==
+      </Data>
+      <Data item="3" minimum="4" maximum="4" dataFormat="ASCII">
+4 
+      </Data>
+      <Data item="4" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="5" minimum="-0.0020888171" maximum="-0.0020888171" dataFormat="Base64/LE">
+ieQIuw==
+      </Data>
+      <Data item="6" minimum="-0.002600136" maximum="-0.002600136" dataFormat="Base64/LE">
+C2cquw==
+      </Data>
+      <Data item="7" minimum="0.01094879" maximum="0.01094879" dataFormat="Base64/LE">
+jmIzPA==
+      </Data>
+      <Data item="8" minimum="0.22" maximum="0.22" dataFormat="Base64/LE">
+rkdhPg==
+      </Data>
+    </Section>
+    <Section id="22" length="1">
+      <Data item="0" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="1" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="2" minimum="0.23" maximum="0.23" dataFormat="Base64/LE">
+H4VrPg==
+      </Data>
+      <Data item="3" minimum="4" maximum="4" dataFormat="ASCII">
+4 
+      </Data>
+      <Data item="4" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="5" minimum="-0.0021526341" maximum="-0.0021526341" dataFormat="Base64/LE">
+NRMNuw==
+      </Data>
+      <Data item="6" minimum="-0.0025161279" maximum="-0.0025161279" dataFormat="Base64/LE">
+n+Ukuw==
+      </Data>
+      <Data item="7" minimum="0.01084361" maximum="0.01084361" dataFormat="Base64/LE">
+ZqkxPA==
+      </Data>
+      <Data item="8" minimum="0.23" maximum="0.23" dataFormat="Base64/LE">
+H4VrPg==
+      </Data>
+    </Section>
+    <Section id="23" length="1">
+      <Data item="0" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="1" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="2" minimum="0.23999999" maximum="0.23999999" dataFormat="Base64/LE">
+j8J1Pg==
+      </Data>
+      <Data item="3" minimum="4" maximum="4" dataFormat="ASCII">
+4 
+      </Data>
+      <Data item="4" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="5" minimum="-0.002198881" maximum="-0.002198881" dataFormat="Base64/LE">
+GhsQuw==
+      </Data>
+      <Data item="6" minimum="-0.002451499" maximum="-0.002451499" dataFormat="Base64/LE">
+VKkguw==
+      </Data>
+      <Data item="7" minimum="0.01077891" maximum="0.01077891" dataFormat="Base64/LE">
+BpowPA==
+      </Data>
+      <Data item="8" minimum="0.23999999" maximum="0.23999999" dataFormat="Base64/LE">
+j8J1Pg==
+      </Data>
+    </Section>
+    <Section id="24" length="1">
+      <Data item="0" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="1" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="2" minimum="0.25" maximum="0.25" dataFormat="Base64/LE">
+AACAPg==
+      </Data>
+      <Data item="3" minimum="4" maximum="4" dataFormat="ASCII">
+4 
+      </Data>
+      <Data item="4" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="5" minimum="-0.0022357921" maximum="-0.0022357921" dataFormat="Base64/LE">
+XoYSuw==
+      </Data>
+      <Data item="6" minimum="-0.0023984041" maximum="-0.0023984041" dataFormat="Base64/LE">
+iy4duw==
+      </Data>
+      <Data item="7" minimum="0.01074434" maximum="0.01074434" dataFormat="Base64/LE">
+BwkwPA==
+      </Data>
+      <Data item="8" minimum="0.25" maximum="0.25" dataFormat="Base64/LE">
+AACAPg==
+      </Data>
+    </Section>
+    <Section id="25" length="1">
+      <Data item="0" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="1" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="2" minimum="0.25999999" maximum="0.25999999" dataFormat="Base64/LE">
+uB6FPg==
+      </Data>
+      <Data item="3" minimum="4" maximum="4" dataFormat="ASCII">
+4 
+      </Data>
+      <Data item="4" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="5" minimum="-0.002267153" maximum="-0.002267153" dataFormat="Base64/LE">
+hJQUuw==
+      </Data>
+      <Data item="6" minimum="-0.0023526279" maximum="-0.0023526279" dataFormat="Base64/LE">
+jC4auw==
+      </Data>
+      <Data item="7" minimum="0.01073429" maximum="0.01073429" dataFormat="Base64/LE">
+4N4vPA==
+      </Data>
+      <Data item="8" minimum="0.25999999" maximum="0.25999999" dataFormat="Base64/LE">
+uB6FPg==
+      </Data>
+    </Section>
+    <Section id="26" length="1">
+      <Data item="0" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="1" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="2" minimum="0.27000001" maximum="0.27000001" dataFormat="Base64/LE">
+cT2KPg==
+      </Data>
+      <Data item="3" minimum="4" maximum="4" dataFormat="ASCII">
+4 
+      </Data>
+      <Data item="4" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="5" minimum="-0.0022929539" maximum="-0.0022929539" dataFormat="Base64/LE">
+YkUWuw==
+      </Data>
+      <Data item="6" minimum="-0.0023153641" maximum="-0.0023153641" dataFormat="Base64/LE">
+Xb0Xuw==
+      </Data>
+      <Data item="7" minimum="0.01074296" maximum="0.01074296" dataFormat="Base64/LE">
+PQMwPA==
+      </Data>
+      <Data item="8" minimum="0.27000001" maximum="0.27000001" dataFormat="Base64/LE">
+cT2KPg==
+      </Data>
+    </Section>
+    <Section id="27" length="1">
+      <Data item="0" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="1" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="2" minimum="0.28" maximum="0.28" dataFormat="Base64/LE">
+KVyPPg==
+      </Data>
+      <Data item="3" minimum="4" maximum="4" dataFormat="ASCII">
+4 
+      </Data>
+      <Data item="4" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="5" minimum="-0.002314535" maximum="-0.002314535" dataFormat="Base64/LE">
+dK8Xuw==
+      </Data>
+      <Data item="6" minimum="-0.0022846039" maximum="-0.0022846039" dataFormat="Base64/LE">
+S7kVuw==
+      </Data>
+      <Data item="7" minimum="0.01076214" maximum="0.01076214" dataFormat="Base64/LE">
+sFMwPA==
+      </Data>
+      <Data item="8" minimum="0.28" maximum="0.28" dataFormat="Base64/LE">
+KVyPPg==
+      </Data>
+    </Section>
+    <Section id="28" length="1">
+      <Data item="0" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="1" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="2" minimum="0.28999999" maximum="0.28999999" dataFormat="Base64/LE">
+4XqUPg==
+      </Data>
+      <Data item="3" minimum="4" maximum="4" dataFormat="ASCII">
+4 
+      </Data>
+      <Data item="4" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="5" minimum="-0.0023328881" maximum="-0.0023328881" dataFormat="Base64/LE">
+XuMYuw==
+      </Data>
+      <Data item="6" minimum="-0.002258407" maximum="-0.002258407" dataFormat="Base64/LE">
+yAEUuw==
+      </Data>
+      <Data item="7" minimum="0.01078667" maximum="0.01078667" dataFormat="Base64/LE">
+k7owPA==
+      </Data>
+      <Data item="8" minimum="0.28999999" maximum="0.28999999" dataFormat="Base64/LE">
+4XqUPg==
+      </Data>
+    </Section>
+    <Section id="29" length="1">
+      <Data item="0" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="1" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="2" minimum="0.30000001" maximum="0.30000001" dataFormat="Base64/LE">
+mpmZPg==
+      </Data>
+      <Data item="3" minimum="4" maximum="4" dataFormat="ASCII">
+4 
+      </Data>
+      <Data item="4" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="5" minimum="-0.002349332" maximum="-0.002349332" dataFormat="Base64/LE">
+QPcZuw==
+      </Data>
+      <Data item="6" minimum="-0.0022346929" maximum="-0.0022346929" dataFormat="Base64/LE">
+7XMSuw==
+      </Data>
+      <Data item="7" minimum="0.01081395" maximum="0.01081395" dataFormat="Base64/LE">
+/iwxPA==
+      </Data>
+      <Data item="8" minimum="0.30000001" maximum="0.30000001" dataFormat="Base64/LE">
+mpmZPg==
+      </Data>
+    </Section>
+    <Section id="30" length="1">
+      <Data item="0" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="1" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="2" minimum="0.31" maximum="0.31" dataFormat="Base64/LE">
+UriePg==
+      </Data>
+      <Data item="3" minimum="4" maximum="4" dataFormat="ASCII">
+4 
+      </Data>
+      <Data item="4" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="5" minimum="-0.0023647919" maximum="-0.0023647919" dataFormat="Base64/LE">
+oPoauw==
+      </Data>
+      <Data item="6" minimum="-0.002211991" maximum="-0.002211991" dataFormat="Base64/LE">
+DfcQuw==
+      </Data>
+      <Data item="7" minimum="0.01084309" maximum="0.01084309" dataFormat="Base64/LE">
+N6cxPA==
+      </Data>
+      <Data item="8" minimum="0.31" maximum="0.31" dataFormat="Base64/LE">
+UriePg==
+      </Data>
+    </Section>
+    <Section id="31" length="1">
+      <Data item="0" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="1" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="2" minimum="0.31999999" maximum="0.31999999" dataFormat="Base64/LE">
+CtejPg==
+      </Data>
+      <Data item="3" minimum="4" maximum="4" dataFormat="ASCII">
+4 
+      </Data>
+      <Data item="4" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="5" minimum="-0.0023793711" maximum="-0.0023793711" dataFormat="Base64/LE">
+Oe8buw==
+      </Data>
+      <Data item="6" minimum="-0.002190097" maximum="-0.002190097" dataFormat="Base64/LE">
+u4cPuw==
+      </Data>
+      <Data item="7" minimum="0.01087315" maximum="0.01087315" dataFormat="Base64/LE">
+TCUyPA==
+      </Data>
+      <Data item="8" minimum="0.31999999" maximum="0.31999999" dataFormat="Base64/LE">
+CtejPg==
+      </Data>
+    </Section>
+    <Section id="32" length="1">
+      <Data item="0" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="1" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="2" minimum="0.33000001" maximum="0.33000001" dataFormat="Base64/LE">
+w/WoPg==
+      </Data>
+      <Data item="3" minimum="4" maximum="4" dataFormat="ASCII">
+4 
+      </Data>
+      <Data item="4" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="5" minimum="-0.0023931351" maximum="-0.0023931351" dataFormat="Base64/LE">
+JdYcuw==
+      </Data>
+      <Data item="6" minimum="-0.0021689101" maximum="-0.0021689101" dataFormat="Base64/LE">
+RiQOuw==
+      </Data>
+      <Data item="7" minimum="0.0109036" maximum="0.0109036" dataFormat="Base64/LE">
+A6UyPA==
+      </Data>
+      <Data item="8" minimum="0.33000001" maximum="0.33000001" dataFormat="Base64/LE">
+w/WoPg==
+      </Data>
+    </Section>
+    <Section id="33" length="1">
+      <Data item="0" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="1" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="2" minimum="0.34" maximum="0.34" dataFormat="Base64/LE">
+exSuPg==
+      </Data>
+      <Data item="3" minimum="4" maximum="4" dataFormat="ASCII">
+4 
+      </Data>
+      <Data item="4" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="5" minimum="-0.002406142" maximum="-0.002406142" dataFormat="Base64/LE">
+XbAduw==
+      </Data>
+      <Data item="6" minimum="-0.0021483731" maximum="-0.0021483731" dataFormat="Base64/LE">
+uMsMuw==
+      </Data>
+      <Data item="7" minimum="0.01093414" maximum="0.01093414" dataFormat="Base64/LE">
+GyUzPA==
+      </Data>
+      <Data item="8" minimum="0.34" maximum="0.34" dataFormat="Base64/LE">
+exSuPg==
+      </Data>
+    </Section>
+    <Section id="34" length="1">
+      <Data item="0" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="1" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="2" minimum="0.34999999" maximum="0.34999999" dataFormat="Base64/LE">
+MzOzPg==
+      </Data>
+      <Data item="3" minimum="4" maximum="4" dataFormat="ASCII">
+4 
+      </Data>
+      <Data item="4" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="5" minimum="-0.0024193961" maximum="-0.0024193961" dataFormat="Base64/LE">
+u44euw==
+      </Data>
+      <Data item="6" minimum="-0.002125073" maximum="-0.002125073" dataFormat="Base64/LE">
+z0QLuw==
+      </Data>
+      <Data item="7" minimum="0.01095959" maximum="0.01095959" dataFormat="Base64/LE">
+2o8zPA==
+      </Data>
+      <Data item="8" minimum="0.34999999" maximum="0.34999999" dataFormat="Base64/LE">
+MzOzPg==
+      </Data>
+    </Section>
+    <Section id="35" length="1">
+      <Data item="0" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="1" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="2" minimum="0.36000001" maximum="0.36000001" dataFormat="Base64/LE">
+7FG4Pg==
+      </Data>
+      <Data item="3" minimum="4" maximum="4" dataFormat="ASCII">
+4 
+      </Data>
+      <Data item="4" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="5" minimum="-0.002430524" maximum="-0.002430524" dataFormat="Base64/LE">
+bUkfuw==
+      </Data>
+      <Data item="6" minimum="-0.0021041329" maximum="-0.0021041329" dataFormat="Base64/LE">
+fuUJuw==
+      </Data>
+      <Data item="7" minimum="0.01098281" maximum="0.01098281" dataFormat="Base64/LE">
+PvEzPA==
+      </Data>
+      <Data item="8" minimum="0.36000001" maximum="0.36000001" dataFormat="Base64/LE">
+7FG4Pg==
+      </Data>
+    </Section>
+    <Section id="36" length="1">
+      <Data item="0" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="1" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="2" minimum="0.37" maximum="0.37" dataFormat="Base64/LE">
+pHC9Pg==
+      </Data>
+      <Data item="3" minimum="4" maximum="4" dataFormat="ASCII">
+4 
+      </Data>
+      <Data item="4" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="5" minimum="-0.0024414971" maximum="-0.0024414971" dataFormat="Base64/LE">
+hgEguw==
+      </Data>
+      <Data item="6" minimum="-0.002085631" maximum="-0.002085631" dataFormat="Base64/LE">
+Fa8Iuw==
+      </Data>
+      <Data item="7" minimum="0.01101278" maximum="0.01101278" dataFormat="Base64/LE">
+8m40PA==
+      </Data>
+      <Data item="8" minimum="0.37" maximum="0.37" dataFormat="Base64/LE">
+pHC9Pg==
+      </Data>
+    </Section>
+    <Section id="37" length="1">
+      <Data item="0" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="1" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="2" minimum="0.38" maximum="0.38" dataFormat="Base64/LE">
+XI/CPg==
+      </Data>
+      <Data item="3" minimum="4" maximum="4" dataFormat="ASCII">
+4 
+      </Data>
+      <Data item="4" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="5" minimum="-0.002449726" maximum="-0.002449726" dataFormat="Base64/LE">
+lYsguw==
+      </Data>
+      <Data item="6" minimum="-0.002068646" maximum="-0.002068646" dataFormat="Base64/LE">
+H5IHuw==
+      </Data>
+      <Data item="7" minimum="0.0110321" maximum="0.0110321" dataFormat="Base64/LE">
++780PA==
+      </Data>
+      <Data item="8" minimum="0.38" maximum="0.38" dataFormat="Base64/LE">
+XI/CPg==
+      </Data>
+    </Section>
+    <Section id="38" length="1">
+      <Data item="0" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="1" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="2" minimum="0.38999999" maximum="0.38999999" dataFormat="Base64/LE">
+FK7HPg==
+      </Data>
+      <Data item="3" minimum="4" maximum="4" dataFormat="ASCII">
+4 
+      </Data>
+      <Data item="4" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="5" minimum="-0.0024565461" maximum="-0.0024565461" dataFormat="Base64/LE">
+Af4guw==
+      </Data>
+      <Data item="6" minimum="-0.0020559649" maximum="-0.0020559649" dataFormat="Base64/LE">
+Xr0Guw==
+      </Data>
+      <Data item="7" minimum="0.01104672" maximum="0.01104672" dataFormat="Base64/LE">
+Tf00PA==
+      </Data>
+      <Data item="8" minimum="0.38999999" maximum="0.38999999" dataFormat="Base64/LE">
+FK7HPg==
+      </Data>
+    </Section>
+    <Section id="39" length="1">
+      <Data item="0" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="1" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="2" minimum="0.40000001" maximum="0.40000001" dataFormat="Base64/LE">
+zczMPg==
+      </Data>
+      <Data item="3" minimum="4" maximum="4" dataFormat="ASCII">
+4 
+      </Data>
+      <Data item="4" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="5" minimum="-0.002465948" maximum="-0.002465948" dataFormat="Base64/LE">
+vpshuw==
+      </Data>
+      <Data item="6" minimum="-0.002039352" maximum="-0.002039352" dataFormat="Base64/LE">
+pqYFuw==
+      </Data>
+      <Data item="7" minimum="0.01107596" maximum="0.01107596" dataFormat="Base64/LE">
+8Xc1PA==
+      </Data>
+      <Data item="8" minimum="0.40000001" maximum="0.40000001" dataFormat="Base64/LE">
+zczMPg==
+      </Data>
+    </Section>
+    <Section id="40" length="1">
+      <Data item="0" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="1" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="2" minimum="0.41" maximum="0.41" dataFormat="Base64/LE">
+hevRPg==
+      </Data>
+      <Data item="3" minimum="4" maximum="4" dataFormat="ASCII">
+4 
+      </Data>
+      <Data item="4" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="5" minimum="-0.00247044" maximum="-0.00247044" dataFormat="Base64/LE">
+G+chuw==
+      </Data>
+      <Data item="6" minimum="-0.002028984" maximum="-0.002028984" dataFormat="Base64/LE">
+tPgEuw==
+      </Data>
+      <Data item="7" minimum="0.01108811" maximum="0.01108811" dataFormat="Base64/LE">
+56o1PA==
+      </Data>
+      <Data item="8" minimum="0.41" maximum="0.41" dataFormat="Base64/LE">
+hevRPg==
+      </Data>
+    </Section>
+    <Section id="41" length="1">
+      <Data item="0" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="1" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="2" minimum="0.41999999" maximum="0.41999999" dataFormat="Base64/LE">
+PQrXPg==
+      </Data>
+      <Data item="3" minimum="4" maximum="4" dataFormat="ASCII">
+4 
+      </Data>
+      <Data item="4" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="5" minimum="-0.0024790289" maximum="-0.0024790289" dataFormat="Base64/LE">
+NHciuw==
+      </Data>
+      <Data item="6" minimum="-0.0020134109" maximum="-0.0020134109" dataFormat="Base64/LE">
+bvMDuw==
+      </Data>
+      <Data item="7" minimum="0.01111712" maximum="0.01111712" dataFormat="Base64/LE">
+lSQ2PA==
+      </Data>
+      <Data item="8" minimum="0.41999999" maximum="0.41999999" dataFormat="Base64/LE">
+PQrXPg==
+      </Data>
+    </Section>
+    <Section id="42" length="1">
+      <Data item="0" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="1" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="2" minimum="0.43000001" maximum="0.43000001" dataFormat="Base64/LE">
+9ijcPg==
+      </Data>
+      <Data item="3" minimum="4" maximum="4" dataFormat="ASCII">
+4 
+      </Data>
+      <Data item="4" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="5" minimum="-0.002481553" maximum="-0.002481553" dataFormat="Base64/LE">
+jaEiuw==
+      </Data>
+      <Data item="6" minimum="-0.002007066" maximum="-0.002007066" dataFormat="Base64/LE">
++4gDuw==
+      </Data>
+      <Data item="7" minimum="0.01112397" maximum="0.01112397" dataFormat="Base64/LE">
+UEE2PA==
+      </Data>
+      <Data item="8" minimum="0.43000001" maximum="0.43000001" dataFormat="Base64/LE">
+9ijcPg==
+      </Data>
+    </Section>
+    <Section id="43" length="1">
+      <Data item="0" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="1" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="2" minimum="0.44" maximum="0.44" dataFormat="Base64/LE">
+rkfhPg==
+      </Data>
+      <Data item="3" minimum="4" maximum="4" dataFormat="ASCII">
+4 
+      </Data>
+      <Data item="4" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="5" minimum="-0.0024896739" maximum="-0.0024896739" dataFormat="Base64/LE">
+zCkjuw==
+      </Data>
+      <Data item="6" minimum="-0.0019920371" maximum="-0.0019920371" dataFormat="Base64/LE">
+1owCuw==
+      </Data>
+      <Data item="7" minimum="0.01115303" maximum="0.01115303" dataFormat="Base64/LE">
+M7s2PA==
+      </Data>
+      <Data item="8" minimum="0.44" maximum="0.44" dataFormat="Base64/LE">
+rkfhPg==
+      </Data>
+    </Section>
+    <Section id="44" length="1">
+      <Data item="0" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="1" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="2" minimum="0.44999999" maximum="0.44999999" dataFormat="Base64/LE">
+ZmbmPg==
+      </Data>
+      <Data item="3" minimum="4" maximum="4" dataFormat="ASCII">
+4 
+      </Data>
+      <Data item="4" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="5" minimum="-0.002497606" maximum="-0.002497606" dataFormat="Base64/LE">
+4K4juw==
+      </Data>
+      <Data item="6" minimum="-0.0019770651" maximum="-0.0019770651" dataFormat="Base64/LE">
+ppEBuw==
+      </Data>
+      <Data item="7" minimum="0.01118234" maximum="0.01118234" dataFormat="Base64/LE">
+IjY3PA==
+      </Data>
+      <Data item="8" minimum="0.44999999" maximum="0.44999999" dataFormat="Base64/LE">
+ZmbmPg==
+      </Data>
+    </Section>
+    <Section id="45" length="1">
+      <Data item="0" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="1" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="2" minimum="0.46000001" maximum="0.46000001" dataFormat="Base64/LE">
+H4XrPg==
+      </Data>
+      <Data item="3" minimum="4" maximum="4" dataFormat="ASCII">
+4 
+      </Data>
+      <Data item="4" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="5" minimum="-0.0025054601" maximum="-0.0025054601" dataFormat="Base64/LE">
+pTIkuw==
+      </Data>
+      <Data item="6" minimum="-0.001962089" maximum="-0.001962089" dataFormat="Base64/LE">
+ZJYAuw==
+      </Data>
+      <Data item="7" minimum="0.01121198" maximum="0.01121198" dataFormat="Base64/LE">
+dLI3PA==
+      </Data>
+      <Data item="8" minimum="0.46000001" maximum="0.46000001" dataFormat="Base64/LE">
+H4XrPg==
+      </Data>
+    </Section>
+    <Section id="46" length="1">
+      <Data item="0" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="1" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="2" minimum="0.47" maximum="0.47" dataFormat="Base64/LE">
+16PwPg==
+      </Data>
+      <Data item="3" minimum="4" maximum="4" dataFormat="ASCII">
+4 
+      </Data>
+      <Data item="4" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="5" minimum="-0.0025132641" maximum="-0.0025132641" dataFormat="Base64/LE">
+k7Ukuw==
+      </Data>
+      <Data item="6" minimum="-0.001947094" maximum="-0.001947094" dataFormat="Base64/LE">
+ojX/ug==
+      </Data>
+      <Data item="7" minimum="0.01124205" maximum="0.01124205" dataFormat="Base64/LE">
+kzA4PA==
+      </Data>
+      <Data item="8" minimum="0.47" maximum="0.47" dataFormat="Base64/LE">
+16PwPg==
+      </Data>
+    </Section>
+    <Section id="47" length="1">
+      <Data item="0" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="1" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="2" minimum="0.47999999" maximum="0.47999999" dataFormat="Base64/LE">
+j8L1Pg==
+      </Data>
+      <Data item="3" minimum="4" maximum="4" dataFormat="ASCII">
+4 
+      </Data>
+      <Data item="4" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="5" minimum="-0.0025209361" maximum="-0.0025209361" dataFormat="Base64/LE">
+SjYluw==
+      </Data>
+      <Data item="6" minimum="-0.001932229" maximum="-0.001932229" dataFormat="Base64/LE">
+2UL9ug==
+      </Data>
+      <Data item="7" minimum="0.01127248" maximum="0.01127248" dataFormat="Base64/LE">
+NbA4PA==
+      </Data>
+      <Data item="8" minimum="0.47999999" maximum="0.47999999" dataFormat="Base64/LE">
+j8L1Pg==
+      </Data>
+    </Section>
+    <Section id="48" length="1">
+      <Data item="0" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="1" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="2" minimum="0.49000001" maximum="0.49000001" dataFormat="Base64/LE">
+SOH6Pg==
+      </Data>
+      <Data item="3" minimum="4" maximum="4" dataFormat="ASCII">
+4 
+      </Data>
+      <Data item="4" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="5" minimum="-0.002528561" maximum="-0.002528561" dataFormat="Base64/LE">
+N7Yluw==
+      </Data>
+      <Data item="6" minimum="-0.001917345" maximum="-0.001917345" dataFormat="Base64/LE">
+bE/7ug==
+      </Data>
+      <Data item="7" minimum="0.01130336" maximum="0.01130336" dataFormat="Base64/LE">
+ujE5PA==
+      </Data>
+      <Data item="8" minimum="0.49000001" maximum="0.49000001" dataFormat="Base64/LE">
+SOH6Pg==
+      </Data>
+    </Section>
+    <Section id="49" length="1">
+      <Data item="0" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="1" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="2" minimum="0.5" maximum="0.5" dataFormat="Base64/LE">
+AAAAPw==
+      </Data>
+      <Data item="3" minimum="4" maximum="4" dataFormat="ASCII">
+4 
+      </Data>
+      <Data item="4" minimum="0" maximum="0" dataFormat="ASCII">
+0 
+      </Data>
+      <Data item="5" minimum="-0.0025361411" maximum="-0.0025361411" dataFormat="Base64/LE">
+YzUmuw==
+      </Data>
+      <Data item="6" minimum="-0.00190244" maximum="-0.00190244" dataFormat="Base64/LE">
+S1v5ug==
+      </Data>
+      <Data item="7" minimum="0.01133468" maximum="0.01133468" dataFormat="Base64/LE">
+GLU5PA==
+      </Data>
+      <Data item="8" minimum="0.5" maximum="0.5" dataFormat="Base64/LE">
+AAAAPw==
+      </Data>
+    </Section>
+  </Tracks>
+</ParticleTracks>
